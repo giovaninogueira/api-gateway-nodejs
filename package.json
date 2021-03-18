@@ -1,0 +1,33 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "description": "API for manager request in microsservices",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovaninogueira/api-gateway-nodejs.git"
+  },
+  "keywords": [
+    "API;",
+    "Gateway;",
+    "Nodejs;",
+    "Microsservices"
+  ],
+  "author": "Giovani Cassiano Nogueira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giovaninogueira/api-gateway-nodejs/issues"
+  },
+  "homepage": "https://github.com/giovaninogueira/api-gateway-nodejs#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2",
+    "helmet": "^4.4.1",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0"
+  }
+}
